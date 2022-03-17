@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6D8B2"
+    android:tag="1"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#047583"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/face_1"
+            tools:srcCompat="@drawable/face_1" />
+
+        <TextView
+            android:id="@+id/txt_word"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".4"
+            android:gravity="center"
+            android:text=""
+            android:textSize="34sp"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_a"
+                    style="@style/stl_letter"
+                    android:text="A" />
+
+                <TextView
+                    android:id="@+id/txt_b"
+                    style="@style/stl_letter"
+                    android:text="B" />
+
+                <TextView
+                    android:id="@+id/txt_c"
+                    style="@style/stl_letter"
+                    android:text="C" />
+
+                <TextView
+                    android:id="@+id/txt_d"
+                    style="@style/stl_letter"
+                    android:text="D" />
+
+                <TextView
+                    android:id="@+id/txt_e"
+                    style="@style/stl_letter"
+                    android:text="E" />
+
+                <TextView
+                    android:id="@+id/txt_f"
+                    style="@style/stl_letter"
+                    android:text="F" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_g"
+                    style="@style/stl_letter"
+                    android:text="G" />
+
+                <TextView
+                    android:id="@+id/txt_h"
+                    style="@style/stl_letter"
+                    android:text="H" />
+
+                <TextView
+                    android:id="@+id/txt_i"
+                    style="@style/stl_letter"
+                    android:text="I" />
+
+                <TextView
+                    android:id="@+id/txt_j"
+                    style="@style/stl_letter"
+                    android:text="J" />
+
+                <TextView
+                    android:id="@+id/txt_k"
+                    style="@style/stl_letter"
+                    android:text="K" />
+
+                <TextView
+                    android:id="@+id/txt_m"
+                    style="@style/stl_letter"
+                    android:text="M" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_l"
+                    style="@style/stl_letter"
+                    android:text="L" />
+
+                <TextView
+                    android:id="@+id/txt_n"
+                    style="@style/stl_letter"
+                    android:text="N" />
+
+                <TextView
+                    android:id="@+id/txt_o"
+                    style="@style/stl_letter"
+                    android:text="O" />
+
+                <TextView
+                    android:id="@+id/txt_p"
+                    style="@style/stl_letter"
+                    android:text="P" />
+
+                <TextView
+                    android:id="@+id/txt_q"
+                    style="@style/stl_letter"
+                    android:text="Q" />
+
+                <TextView
+                    android:id="@+id/txt_r"
+                    style="@style/stl_letter"
+                    android:text="R" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_s"
+                    style="@style/stl_letter"
+                    android:text="S" />
+
+                <TextView
+                    android:id="@+id/txt_t"
+                    style="@style/stl_letter"
+                    android:text="T" />
+
+                <TextView
+                    android:id="@+id/txt_u"
+                    style="@style/stl_letter"
+                    android:text="U" />
+
+                <TextView
+                    android:id="@+id/txt_v"
+                    style="@style/stl_letter"
+                    android:text="V" />
+
+                <TextView
+                    android:id="@+id/txt_w"
+                    style="@style/stl_letter"
+                    android:text="W" />
+
+                <TextView
+                    android:id="@+id/txt_x"
+                    style="@style/stl_letter"
+                    android:text="X" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_y"
+                    style="@style/stl_letter"
+                    android:text="Y" />
+
+                <TextView
+                    android:id="@+id/txt_z"
+                    style="@style/stl_letter"
+                    android:text="Z" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/stl_letter"
+                    android:background="#00000000"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    style="@style/stl_letter"
+                    android:background="#00FFFFFF"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    style="@style/stl_letter"
+                    android:background="#00FFFFFF"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    style="@style/stl_letter"
+                    android:background="#00FFFFFF"
+                    android:text="" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
